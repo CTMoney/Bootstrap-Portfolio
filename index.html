@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="hwfavicon.ico" type="image/x-icon">
     <!-- css reset -->
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <!-- bootstrap + local CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -18,8 +17,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="hwfavicon.ico" width="40" height="40" class="d-inline-block align-top"
-                alt=""></a>
+        <a class="navbar-brand" href="https://getbootstrap.com/" target="_blank"><img src="bootstrap.ico" width="40" height="40" class="d-inline-block align-top"
+            title="built with Bootstrap" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,10 +39,32 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container-fluid">
 
+            <div class="row divIndexOffset">
 
+                <div class="col-12 divLinkStyle">
+                    <a href="index.html" style="text-decoration: none;">
+                        <img src="hwfavicon.ico" id="imgPreview">
+                        <p id="pMargins">My first project (current website)</p>
+                    </a>
+                </div>
 
+                <div class="col-12 divLinkStyle">
+                    <a href="#" style="text-decoration: none;">
+                        <img src="qmark.jpg" id="imgPreview">
+                        <p id="pMargins">Future content</p>
+                    </a>
+                </div>
+
+                <div class="col-12 divLinkStyle">
+                    <a href="#" style="text-decoration: none;">
+                        <img src="qmark.jpg" id="imgPreview">
+                        <p id="pMargins">Even more future content</p>
+                    </a>
+                </div>
+
+            </div>
 
     </main>
 </body>

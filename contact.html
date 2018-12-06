@@ -18,7 +18,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="hwfavicon.ico" width="40" height="40" class="d-inline-block align-top"
+        <a class="navbar-brand" href="https://getbootstrap.com/" target="_blank"><img src="bootstrap.ico" width="40" height="40" class="d-inline-block align-top" title="built with Bootstrap"
                 alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,49 +26,47 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Portfolio<span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </div>
     </nav>
-    <form>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-5 offset-1">
-                <input type="text" class="form-control" placeholder="Full name">
-            </div>
-            <div class="col-5">
-                <input type="text" class="form-control" placeholder="Email address">
-            </div>
-        </div>
-    </form>
 
-    <form>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-10 offset-1">
-                <input type="text" class="form-control" placeholder="Subject">
+    <main>
+        <form class="contactBoxStyle">
+            <div class="row" style="margin-top: 5%;" id="contactJustify">
+                <div class="col-5">
+                    <input type="text" class="form-control" placeholder="Full name">
+                </div>
+                <div class="col-5" >
+                    <input type="text" class="form-control" placeholder="Email address">
+                </div>
             </div>
-        </div>
-        <div class="form-group row"style="margin-top: 20px;">
-            <div class="col-10 offset-1">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="row" style="margin-top: 20px;" id="contactJustify">
+                <div class="col-10" id=#zeroMarginHalfCol>
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
             </div>
-        </div>
-    </form>
-    <div class="row">
-        <div class="col-10 offset-1">
-            <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
-        </div>
-    </div>
-
+            <div class="form-group row" style="margin-top: 20px;" id="contactJustify">
+                <div class="col-10">
+                    <label for="exampleFormControlTextarea1" style="color: grey;">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 5%;" id="contactJustify">
+                <div class="col-10">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
     </main>
 </body>
 
