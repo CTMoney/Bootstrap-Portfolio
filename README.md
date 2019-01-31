@@ -3,18 +3,18 @@
 <h1>Pages</h1>
 
 
-    <h3>Home</h3>:
+    Home:
         -  Links to projects
     
-    <h3>About</h3>: 
+    About: 
         -  General info.
     
-    <h3>Contact</h3>
+    Contact:
         -  A working contact form that I hope to get working on sending me emails automatically through back-end;
 
 -----------------------------
 
-    <h3>Overall</h3>:
+    Overall:
 
         - I'd like to change the style to be somewhat more appealing
 
