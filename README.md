@@ -10,7 +10,7 @@
         -  General info.
     
     Contact:
-        -  A working contact form that I hope will be sending me emails automatically through back-end;;
+        -  A working contact form that I hope will be sending me emails automatically through back-end;
 
 -----------------------------
 
